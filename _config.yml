@@ -1,0 +1,17 @@
+title: Will C. Abel
+description: Operator's notes on running a small fleet of coding agents where the human is the reward model — memory, handoff, audit.
+url: "https://willabel4112.github.io"
+baseurl: ""
+theme: minima
+timezone: UTC
+show_excerpts: true
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/willabel4112" }
+header_pages:
+  - about.md
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
