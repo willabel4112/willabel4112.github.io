@@ -19,7 +19,10 @@ decide whether to accept it.
 I am publishing the current implementation, a runnable synthetic demo, and the
 lessons that shaped it.
 
-![A synthetic review in the actual application](/assets/agent-review-board/review.jpg)
+*Updated October 22, 2026: v0.1.1 adds an English interface and CLI. The screenshots
+below have been replaced with the English demo.*
+
+![A synthetic review in the actual application](/assets/agent-review-board/review-en.jpg)
 
 ## The first request was about keeping my place
 
@@ -91,7 +94,7 @@ reading stack. I can explore a child document and return to the place I left,
 including unsent input while the page remains open. The tree does not fork an
 agent, assemble its prompt or guarantee context isolation.
 
-![A child document opened from its parent question](/assets/agent-review-board/explore.jpg)
+![A child document opened from its parent question](/assets/agent-review-board/explore-en.jpg)
 
 ## What is in the release
 
@@ -101,8 +104,7 @@ search, reading coverage, local session claims, and the exploration view.
 
 The server and CLI use Python's standard library. Browser dependencies are
 vendored. There is no model API, API key or automatic answering service: the board
-connects to the agent workflow you already run. The interface is currently Chinese;
-the English guide includes a button glossary.
+connects to the agent workflow you already run. The interface and CLI are now in English, and the guide covers the main controls.
 
 ```sh
 git clone https://github.com/willabel4112/agent-review-board.git
